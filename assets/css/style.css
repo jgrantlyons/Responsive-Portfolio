@@ -1,0 +1,154 @@
+.body{
+    margin: 0px ;
+}
+.topMids{
+    background: white;
+    height: 80px;
+    padding: 0px;
+    margin: 0px auto;
+    width: 960px;
+    position: relative;
+    text-align: center;
+
+}
+.h1{
+    background: white;
+    height: 80px;
+    padding: 0px;
+    margin: 0px auto;
+    width: 100% ;
+}
+
+body{
+    background: url('../images/qbkls.png');
+}
+
+
+.name{
+    font-size: 25px ;
+    color: white ;
+    text-align: center ;
+    background: #4aaaa5 ;
+    width:150px ;
+    float: left ;
+    margin: relative ;
+    bottom: 0px ;    
+    left: 0px; 
+    line-height: 80px ; 
+    border: 1px ;
+    border-color: green;
+}
+
+#about{
+    float: right;
+    margin: 4px;
+    position: relative;
+    padding-top: 23px;
+    color: #777777;
+}
+#portfolio{
+    float: right;
+    margin: 4px;
+    top: 23px;
+    position: relative;
+    color: #777777 ;
+}
+#contact{
+    float: right;
+    margin: 4px;
+    position: relative;
+    top: 23px;
+    color: #777777 ;
+}
+
+.middle{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px auto;
+    border-top: 2px solid grey;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    height: 100%;
+}
+
+
+.h1{
+    font-size: 25px ;
+    text-align: left ;
+    color: #4aaaa5 ;
+    
+}
+.h1:after
+{
+    content:' ';
+    display:block;
+    border:1px solid grey;
+}
+
+
+.middleContent{
+    text-align: left;
+    font-size: 18px;
+    background: #ffffff;
+    border: 1px solid #777777;
+    /* border-width: 5px; */
+    width: 904px;
+    border-color: #777777;
+    margin: 0px auto;
+    margin-bottom: 36px;
+    padding: 28px;
+    color: #777777;
+    overflow: hidden;
+}
+
+.profile-picture{
+    position: relative;
+    top: -100;
+    top: -100;
+    float: left;
+    margin: 41px;
+}
+
+
+
+
+.bottom{    
+    border-top: 2px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    height:  20px;
+}
+
+
+    
+.project{
+    margin: 0px 60px 25px 0px;
+    position: relative;
+    float: left;
+}
+
+
+.projPic{
+    width: 250px ;
+    height: 250px ;
+    object-fit: cover;
+}
+
+.picTag{
+    background-color: #4aaaa5;
+    color: white;
+    font-size:25px;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    text-top: 0px;
+    line-height: 42px;
+}
