@@ -152,3 +152,34 @@ body{
     text-top: 0px;
     line-height: 42px;
 }
+
+
+
+@media only screen and (max-width: 980px) {}
+
+@media only screen and (max-width: 768px) {
+    .container {
+
+        text-align: center;
+
+    }
+
+    .top {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .links{
+        clear:both;
+        width:100%;
+        background:white;
+        text-align:center;
+    }
+    .name{
+        width:100%
+    }
+    p{clear:both;
+    }
+    .profile-picture{width:fit-content;}
+}

@@ -3,14 +3,37 @@
 <head>
     <title>Baic Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        @media only screen and (max-width: 980px) {}
+        
+        @media only screen and (max-width: 768px) {
+            .container {
+        
+                text-align: center;
+        
+            }
+        
+            .top {
+                display: inline-block;
+            }
+        }
+        
+        @media only screen and (max-width:640px){
+            .links{
+                clear:both;
+                width:100%;
+                background:white;
+                text-align:center;
+            }
+            .name{
+                width:100%
+            }
+            p{clear:both;
+            }
+            .profile-picture{width:fit-content;}
+        }</style>
 </head>
 
 
@@ -20,10 +43,11 @@
     <header class="top">
         <div class="topMids">
             <div class="name">Grant Lyons</div>
-
+<div class="links">
             <a id="about" href="index.html">About</a>
             <a id="portfolio" href="portfolio.html">Portfolio</a>
             <a id="contact" href="contact.html">Contact</a>
+            </div>
         </div>
     </header>
 
